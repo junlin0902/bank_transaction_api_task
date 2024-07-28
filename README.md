@@ -39,6 +39,7 @@ Repository Layer (Flask with Database)
    ```
    flask --app backend/app run
 - Open `frontend/account.html` or `frontend/transaction.html` to begin
+  
 ![alt text](image-account.png)
 ![alt text](image-transaction.png)
 - Users can click `ACCOUNT` or `TRANSACTION` to switch between those two pages. There will be some default initial values.  
