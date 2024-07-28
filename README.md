@@ -31,7 +31,7 @@ Repository Layer (Flask with Database)
 ## How to use
 - Clone the project to local repo:
    ```
-   git clone 
+   git clone https://github.com/junlin0902/bank_transaction_api_task.git
 - Set up the MySQL Database
    ```
    mysql -u"USERNAME" -p"PASSWORD" < sql/setup.sql
@@ -43,7 +43,7 @@ Repository Layer (Flask with Database)
 ![alt text](image-transaction.png)
 - Users can click `ACCOUNT` or `TRANSACTION` to switch between those two pages. There will some default initial values.  
 - Users can click the `ADD` button to create new account or transaction. 
- 
+
 - **Special case:  
 If users try to create account, and that AccountID is exist, it will perform edit rather create.**
 
