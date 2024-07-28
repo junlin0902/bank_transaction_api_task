@@ -52,6 +52,8 @@ def accountId(id):
         query = "SELECT * FROM Account WHERE AccountID = %s"
         cursor.execute(query, (accountID,))
         res = cursor.fetchone()
+        if Decimal(balance )< 0:
+            return jsonify({"message": "Invalid balance"}), 400
         if res is None:
             query = "INSERT INTO Account (AccountID, Balance) VALUES (%s, %s)"
             cursor.execute(query, (accountID, balance))
@@ -88,6 +90,8 @@ def transactionId(id):
 
     if payerID == payeeID:
         return jsonify({"message": "Invalid PayeeID"}), 400
+    elif Decimal(amount) <= 0:
+        return jsonify({"message": "Invalid amount"}), 400
     
     query = "SELECT * FROM Account WHERE AccountID = %s"
     cursor.execute(query, (payerID,))
