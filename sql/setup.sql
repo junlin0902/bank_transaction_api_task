@@ -1,0 +1,33 @@
+CREATE DATABASE bank_transactions;
+SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+
+USE bank_transactions;
+
+CREATE TABLE Account (
+    AccountID VARCHAR(36) PRIMARY KEY,
+    Balance DECIMAL(10, 2) CHECK (Balance >= 0)
+);
+
+CREATE TABLE Transaction (
+    PayeeID VARCHAR(36),
+    PayerID VARCHAR(36),
+    Amount DECIMAL(10, 2) CHECK (Amount > 0),
+    FOREIGN KEY (PayeeID) REFERENCES Account(AccountID) ON DELETE CASCADE,
+    FOREIGN KEY (PayerID) REFERENCES Account(AccountID) ON DELETE CASCADE
+);
+
+LOAD DATA LOCAL
+INFILE 'sql/sample_account.csv'
+INTO TABLE Account
+FIELDS TERMINATED BY ','
+ENCLOSED BY ""
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL
+INFILE 'sql/sample_transaction.csv'
+INTO TABLE Transaction
+FIELDS TERMINATED BY ','
+ENCLOSED BY ""
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;

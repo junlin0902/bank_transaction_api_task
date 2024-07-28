@@ -1,0 +1,54 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:06:41] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:06:41] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:06:41] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:07:04] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:07:04] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:07:20] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:07:20] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:07:35] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:09:34] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:09:35] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:09:35] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:09:47] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:09:47] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:09:47] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:09:54] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:09:54] "GET /account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:09:55] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:09:56] "GET /account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:09:57] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:11:05] "GET /account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:11:06] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:15:12] "GET /account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:15:14] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:16:06] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:18:45] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:18:45] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:18:46] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:19:32] "GET /account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:19:32] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:19:33] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:20:31] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:21:02] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:21:04] "GET /account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:21:09] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:21:18] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:21:19] "GET /account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:21:20] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:24:33] "GET /account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:24:34] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:24:36] "GET /account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:25:06] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:38:18] "GET /account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:38:18] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:38:19] "GET /transaction HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2024 16:38:20] "GET /transaction HTTP/1.1" 200 -
