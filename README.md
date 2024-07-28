@@ -41,7 +41,7 @@ Repository Layer (Flask with Database)
 - Open `frontend/account.html` or `frontend/transaction.html` to begin
 ![alt text](image-account.png)
 ![alt text](image-transaction.png)
-- Users can click `ACCOUNT` or `TRANSACTION` to switch between those two pages. There will some default initial values.  
+- Users can click `ACCOUNT` or `TRANSACTION` to switch between those two pages. There will be some default initial values.  
 - Users can click the `ADD` button to create new account or transaction. 
 
 - **Special case:  
