@@ -20,12 +20,12 @@ Repository Layer (Flask with Database)
 ### Python
 - Prepare all necessary library including
    ```
-   from flask import Flask, jsonify, request
    import mysql.connector
-   from mysql.connector import Error
-   from flask_cors import CORS
    import logging
    import datetime
+   from flask import Flask, jsonify, request
+   from mysql.connector import Error
+   from flask_cors import CORS
    from decimal import Decimal
 
 ## How to use
@@ -37,7 +37,7 @@ Repository Layer (Flask with Database)
    mysql -u"USERNAME" -p"PASSWORD" < sql/setup.sql
 - Run flask service
    ```
-   flask --app backend/app run --debug
+   flask --app backend/app run
 - Open `frontend/account.html` or `frontend/transaction.html` to begin
 ![alt text](image-account.png)
 ![alt text](image-transaction.png)
